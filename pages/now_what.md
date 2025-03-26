@@ -1,13 +1,14 @@
 ---
 title: Now What - Strategies for Successful Kickstarter Campaigns
 layout: full
+sidebar_position: 3
 queries:
   - success_matrix: now_what/success_matrix.sql
   - optimal_parameters: now_what/optimal_parameters.sql
   - success_by_goal: now_what/success_by_goal.sql
 ---
 
-# Strategies for Kickstarter Success
+# 🧭 Strategies for Kickstarter Success
 ```sql categories
   select distinct
       main_category
@@ -19,21 +20,21 @@ queries:
     <DropdownOption value="%" valueLabel="All Categories"/>
 </Dropdown>
 
-## Success Rate by Goal Size and Duration
+## ⏳ Success Rate by Goal Size and Duration
 
 <DataTable 
   data={success_matrix}
   title="Success Rate by Goal Size and Duration"
 />
 
-## Optimal Project Parameters
+## 🎭 Optimal Project Parameters
 
 <DataTable 
   data={optimal_parameters}
   title="Successful vs. Failed Project Parameters"
 />
 
-## Success Rate by Goal Range
+## 💰 Success Rate by Goal Range
 
 <BarChart
   data={success_by_goal}
