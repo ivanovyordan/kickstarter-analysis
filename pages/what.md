@@ -1,6 +1,7 @@
 ---
-title: Kickstarter Campaign Analysis
+title: What - Kickstarter Campaign Analysis
 layout: full
+sidebar_position: 1
 queries:
   - total_campaigns: what/total_campaigns.sql
   - category_success: what/category_success.sql

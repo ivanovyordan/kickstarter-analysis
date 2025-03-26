@@ -1,6 +1,7 @@
 ---
-title: Campaign Success Patterns
+title: So What - Campaign Success Patterns
 layout: full
+sidebar_position: 2
 queries:
   - goal_range_success: so_what/goal_range_success.sql
   - success_by_month: so_what/success_by_month.sql
